@@ -1,5 +1,5 @@
 // Importando o Firebase
-import { auth, db, collection, addDoc, setDoc, doc } from "/firebase.js";
+import { auth, db, collection, addDoc, setDoc, doc } from "./firebase.js"; // Importando o Firebase
 import { createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-auth.js";
 
 // Função para validação de CPF
