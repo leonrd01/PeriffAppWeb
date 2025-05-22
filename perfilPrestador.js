@@ -14,7 +14,7 @@ import {
   db,
   collection,
   doc,
-} from "../firebase.js";
+} from "/firebase.js";
 
 
 
