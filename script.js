@@ -7,7 +7,7 @@ import {
   collection,
   db,
   getDocs
-} from ".firebase.js"; // Importando o Firebase
+} from "./firebase.js"; // Importando o Firebase
 
 
 
