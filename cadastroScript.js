@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', function() {
       .then(uid => {
         console.log('Documento criado com ID:', uid);
         alert('Cadastro de cliente realizado com sucesso!');
-        window.location.replace('index.htm');
+        window.location.replace('index.html');
         resetForms();
       })
       .catch(error => {
