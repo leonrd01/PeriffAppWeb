@@ -197,7 +197,7 @@ onAuthStateChanged(auth, async (user) => {
     document.getElementById("openAddServiceModal").style.display = "none";
     document.getElementById("portifolioAdd").style.display = "none";
     document.getElementById("openAddReview").style.display = 'none';
-    document.getElementById("lixeirinha").style.display = "none"
+    
     
     const uidFromUrl = getUidFromUrl();
     const uid = uidFromUrl 
