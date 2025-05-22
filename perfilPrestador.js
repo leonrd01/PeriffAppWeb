@@ -144,7 +144,7 @@ btnLogout.addEventListener("click", (e) => {
     .then(() => {
       // Logout bem‑sucedido
       alert("Você saiu da sua conta.");
-      window.location.replace("../index.html");
+      window.location.replace("index.html");
     })
     .catch((error) => {
       console.error("Erro ao sair:", error);

@@ -39,7 +39,7 @@ function renderizarCardPrestador(dados, uid) {
         </div>
       </div>
       <div class="card-footer">
-        <a href="perfilPrestador2/perfilPrestador.html?uid=${uid}" class="btn-ver-perfil">Ver Perfil</a>
+        <a href="perfilPrestador.html?uid=${uid}" class="btn-ver-perfil">Ver Perfil</a>
       </div>
     `;
 
@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', function() {
           alert("Login realizado com sucesso!")
 
           // redirecionar para a pagina perfilPrestador.html
-          window.location.replace("./PerfilPrestador2/perfilPrestador.html");
+          window.location.replace("perfilPrestador.html");
           
 
         })
